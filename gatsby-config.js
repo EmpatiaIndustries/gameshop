@@ -17,4 +17,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
   ],
+  flags: {
+    DEV_SSR: false
+  }
 };
