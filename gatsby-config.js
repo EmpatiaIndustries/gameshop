@@ -1,4 +1,4 @@
-require("dotenv").config()
+require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
@@ -18,6 +18,6 @@ module.exports = {
     "gatsby-plugin-sharp",
   ],
   flags: {
-    DEV_SSR: false
-  }
+    DEV_SSR: false,
+  },
 };
